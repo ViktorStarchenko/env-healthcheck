@@ -1,0 +1,21 @@
+{
+  "name": "viktor-starchenko/env-healthcheck",
+  "description": "A simple ENV healthcheck endpoint for WordPress plugins.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Viktor Starchenko",
+      "email": "viktor.s@overdose.digital"
+    }
+  ],
+  "require": {
+    "php": ">=7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Healthcheck\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
