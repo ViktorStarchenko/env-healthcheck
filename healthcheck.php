@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: ENV Healthcheck
-Description: A simple ENV healthcheck endpoint for WordPress Bedrock sites. You can get a check at the endpoint https://yourdomain.com/wp-json/custom/v1/healthcheck.
+Description: A simple ENV healthcheck endpoint for WordPress Bedrock sites. You can get a check at the endpoint https://yourdomain.com/wp-json/custom/v1/healthcheck. Install by composer require viktor-starchenko/env-healthcheck.
 Version: 1.0
 Author: Viktor Starchenko
 */
