@@ -1,6 +1,5 @@
 {
   "name": "viktor-starchenko/env-healthcheck",
-  "version": "1.0.0",
   "description": "A simple ENV healthcheck endpoint for WordPress plugins.",
   "type": "wordpress-plugin",
   "license": "MIT",
