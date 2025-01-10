@@ -17,13 +17,15 @@ class Healthcheck {
         if (!$is_production) {
             return new \WP_REST_Response([
                 'status'  => 'fail',
-                'message' => 'Site is NOT in production mode'
+                'message' => 'Site is NOT in production mode',
+                "mode" => "development"
             ], 200);
         }
 
         return new \WP_REST_Response([
             'status'  => 'success',
-            'message' => 'Site is up and running in PRODUCTION mode'
+            'message' => 'Site is up and running in PRODUCTION mode',
+            "mode" => "production"
         ], 200);
     }
 }
